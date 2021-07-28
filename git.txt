@@ -1,0 +1,235 @@
+WEBVTT
+
+00:01.310 --> 00:05.600
+So there is a difference between the dot notation and the bracket notation.
+
+00:05.600 --> 00:11.120
+So in javascript we see that we can return back and we can assign those values.
+
+00:11.210 --> 00:20.480
+So if we do my Jaison dot car one or my Jaison bracket quote car one and assign a value to it they're
+
+00:20.480 --> 00:25.170
+both the same it's two different ways of assigning values in Javascript.
+
+00:25.280 --> 00:32.270
+And this is important to note because with Jaison you can have spaces for the key values where as with
+
+00:32.270 --> 00:33.720
+javascript you can't.
+
+00:33.740 --> 00:39.740
+So if you were to do car space one it wouldn't work in this type of output but it would work within
+
+00:39.740 --> 00:42.720
+this output where we're doing the bracket notation.
+
+00:42.770 --> 00:47.140
+So keep that in mind and I am going to be showing you some examples of that coming up.
+
+00:47.150 --> 00:48.600
+There's also arrays.
+
+00:48.710 --> 00:55.690
+So we saw that we had created an array on an object to race we had a car and we are blue and black and
+
+00:55.700 --> 00:57.470
+now we log out cars.
+
+00:57.560 --> 00:59.270
+You can see what it's going to look like.
+
+01:00.880 --> 01:04.450
+So let's clear our console and we create a brand new variable.
+
+01:04.450 --> 01:10.210
+Call it cars and you can do this as well within your browser to try that out.
+
+01:10.240 --> 01:17.710
+So we've got a car and we have one blue and one block and we're going to use an array because we have
+
+01:17.710 --> 01:23.130
+two values here that we want to store in the array because they're both cars.
+
+01:23.230 --> 01:28.850
+And this way if we break it apart into blue and black Let me show you how this looks.
+
+01:28.870 --> 01:36.760
+So if we do cars we see that we've got that seem keep their values so we've got the key and the value
+
+01:36.910 --> 01:39.010
+but the value this time it's an array.
+
+01:39.010 --> 01:42.490
+And within that array we can see that there's two objects.
+
+01:42.490 --> 01:47.800
+So if we have two cars this is actually a better way to represent that information.
+
+01:47.890 --> 01:53.240
+And additionally we can add even more content into our Jaison object.
+
+01:53.380 --> 01:57.340
+So let's try that now as well so let's try out the second example.
+
+01:57.340 --> 02:06.160
+So var and my son and let's this time will just create it here within the console.
+
+02:06.160 --> 02:07.760
+So we've got a car.
+
+02:07.820 --> 02:11.720
+What and we're going to have additional information.
+
+02:11.760 --> 02:20.130
+So remember with Jaison we can have an object as the value and if we set the object as a value then
+
+02:20.250 --> 02:22.610
+we always have to separate it out with those colons.
+
+02:22.650 --> 02:26.640
+But this is going to give us even more flexibility in that data.
+
+02:26.640 --> 02:31.620
+So we've got our car one and let's do a car to.
+
+02:31.750 --> 02:34.350
+So that's the key value.
+
+02:34.470 --> 02:40.200
+And then we've got an object that we're placing within there and then within that object we need to
+
+02:40.200 --> 02:47.730
+keep the format the same or we should keep the format the same that it's easier to loop through and
+
+02:47.730 --> 02:49.650
+to parse through that information.
+
+02:49.650 --> 02:57.450
+So now if I go to my son we can see that I've got two objects in their car one and car 2 and they've
+
+02:57.450 --> 02:59.130
+got some properties.
+
+02:59.130 --> 03:04.410
+And then you can add additional details as well now because now that you've got it set up within this
+
+03:04.410 --> 03:09.990
+type of format your car one can have a color and it can also have a model Oswell.
+
+03:10.080 --> 03:16.710
+And that's the nice thing about Jason because you can really build out your Giese on object using this
+
+03:16.710 --> 03:17.690
+type of format.
+
+03:17.820 --> 03:20.280
+And this also allows for more details.
+
+03:20.280 --> 03:24.160
+So typically you wouldn't have just car one in car two black and blue.
+
+03:24.190 --> 03:26.120
+You're not really sure what that's referring to.
+
+03:26.190 --> 03:32.850
+But if we have a key pair of value there we have a color black we have color blue we can also add in
+
+03:32.910 --> 03:34.430
+a model as well.
+
+03:34.620 --> 03:43.210
+And keeping in mind that the way that this time it's structured is that we've got an object and car
+
+03:43.260 --> 03:43.900
+one.
+
+03:43.990 --> 03:51.460
+So we do have an object here so if we want to add to this and if we want to set up a model we could
+
+03:51.460 --> 03:56.170
+really easily update and add even more details into it.
+
+03:56.170 --> 04:02.460
+So now we see that we've got that one as model and we should add in a model for the other one too.
+
+04:02.680 --> 04:08.050
+And that's an important thing to note that you should have you should have that same type of structure
+
+04:08.230 --> 04:14.230
+because as you're parsing through this data because it's all about the data you want to be able to return
+
+04:14.230 --> 04:19.750
+back for a car one a model and a color car to a model and a color and so on.
+
+04:19.750 --> 04:25.120
+So if you add even more properties make sure that they're aligning with both of those values so you
+
+04:25.120 --> 04:31.180
+don't have to it's still going to work but it's best practices if you're looping through multiple items.
+
+04:31.180 --> 04:37.810
+So now if you go into my son you see that you've got the two cars in their car one and car two and they
+
+04:37.810 --> 04:40.040
+each have properties and values.
+
+04:40.180 --> 04:46.900
+And if you want to find out more about car 1 then you can return back just car one and the details in
+
+04:46.900 --> 04:48.380
+regards to car one.
+
+04:48.400 --> 04:50.080
+So try this out for yourself.
+
+04:50.080 --> 04:55.630
+Open up your editor or open up your console in your browser and try it for yourself.
+
+04:55.660 --> 05:03.790
+Build out Jaison javascript object and then add additional details to it and you'll find that if it's
+
+05:03.790 --> 05:08.350
+structured within this way we can add as much detail as we want.
+
+05:08.350 --> 05:15.850
+So if our details are expanding all of a sudden we want to get year and so on we can really easily incorporate
+
+05:15.880 --> 05:21.940
+this into our javascript or our Jaison structure and then we can build that out and make use of that
+
+05:21.940 --> 05:24.490
+data in a much smarter way.
+
+05:25.750 --> 05:31.960
+We've established that there is a definite difference between Jaison and javascript objects so we know
+
+05:31.960 --> 05:37.690
+that with Jaison all keys must be quoted an object literal So those are the javascript objects it's
+
+05:37.690 --> 05:44.590
+not necessary for Jaison has double quotes while Javascript can use single or double and Javascript
+
+05:44.590 --> 05:48.470
+can also include functions and that's not available in JS.
+
+05:48.490 --> 05:54.850
+So basically whatever data you have is what you're stuck with and what you need to use.
+
+05:55.030 --> 06:01.580
+So whatever data you have is what you can use you can't have any more advanced functionality within
+
+06:01.600 --> 06:06.050
+your Jaison whereas javascript there's a lot more options.
+
+06:06.260 --> 06:07.790
+So try this for yourself.
+
+06:07.820 --> 06:13.070
+And in the next lesson we're jumping back into the editor and we're going to be showing you how to use
+
+06:13.130 --> 06:15.790
+Jaison and Java's within Javascript.
+
+06:15.890 --> 06:16.550
+So it's coming up.
